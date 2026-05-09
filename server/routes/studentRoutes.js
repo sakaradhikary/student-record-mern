@@ -4,7 +4,6 @@ const auth = require("../middleware/auth");
 
 const router = express.Router();
 
-// IMPORTANT: protect ALL student routes
 router.use(auth);
 
 // GET
